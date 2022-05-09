@@ -1,10 +1,10 @@
 import React from 'react';
 import { screen } from '@testing-library/react';
-import renderWitchRouter from '../components/renderWitchRouter';
+import RenderWitchRouter from '../components/renderWitchRouter';
 import App from '../App';
 
 test('testando a renderização do app', () => {
-  renderWitchRouter(<App />);
+  RenderWitchRouter(<App />);
   const teste = screen.getByRole('link', {
     name: /about/i,
   });
