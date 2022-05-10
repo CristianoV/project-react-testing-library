@@ -1,6 +1,6 @@
 import React from 'react';
 import { screen } from '@testing-library/react';
-import renderWithRouter from '../components/renderWitchRouter';
+import renderWithRouter from './renderWitchRouter';
 import App from '../App';
 
 test('testando a renderização do app', () => {
